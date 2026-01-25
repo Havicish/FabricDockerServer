@@ -39,10 +39,6 @@
       "fileName": "common-networking-fabric-1.0.22-1.21.11.jar"
     },
     {
-      "projectId": "configured",
-      "fileName": "configured-fabric-1.21.11-2.7.3.jar"
-    },
-    {
       "projectId": "cursors-extended",
       "fileName": "cursors_extended-fabric-4.1.4+1.21.11-patch.1.jar"
     },
