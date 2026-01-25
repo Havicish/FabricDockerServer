@@ -5,25 +5,41 @@ docker run -d \
   -e VERSION=1.21.11 \
   -e TYPE=FABRIC \
   -e CF_API_KEY_FILE=/data/cf_api_key \
-  -e CURSEFORGE_FILES='
-    fabric-api,
-    always-eat,
-    appleskin,
-    cloth-config,
-    clumps,
-    configured,
-    forge-config-api-port,
-    jade,
-    konkrete,
-    lithium,
-    melody,
-    ore-vein-miner,
-    puzzles-lib,
-    resource-backpacks,
-    resource-config-api,
-    resource-library,
-    tree-vein-miner
-  ' \
+  -e CURSEFORGE_FILES="\
+  fabric-api,\
+  always-eat,\
+  appleskin,\
+  better-climbing,\
+  cloth-config,\
+  clumps,\
+  custom-player-models-fabric,\
+  distant-horizons,\
+  entityculling,\
+  forge-config-api-port,\
+  immediatelyfast,\
+  irisshaders,\
+  jade,\
+  jei,\
+  konkrete,\
+  lithium,\
+  melody,\
+  mouse-tweaks,\
+  not-enough-animations,\
+  ok-zoomer,\
+  ore-vein-miner,\
+  pick-up-notifier,\
+  puzzles-lib,\
+  resource-backpacks,\
+  resource-config-api,\
+  resource-library,\
+  smooth-gui,\
+  smooth-scrolling-refurbished,\
+  smooth-swapping,\
+  sodium,\
+  sound-physics-remastered,\
+  tree-vein-miner,\
+  visuality,\
+  ambient-environment,\
+  common-network" \
   -v $(pwd)/data:/data \
-  -v /srv/fabricdocker-api-key:/data/cf_api_key:ro \
   itzg/minecraft-server:latest
