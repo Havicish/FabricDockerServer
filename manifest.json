@@ -11,6 +11,10 @@
   },
   "mods": [
     {
+      "projectId": "fabric-api",
+      "fileName": "fabric-api-1.21.11-0.88.0.jar"
+    },
+    {
       "projectId": "always-eat",
       "fileName": "always_eat-fabric-1.1.0.jar"
     },
