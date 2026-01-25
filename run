@@ -1,10 +1,14 @@
 #!/bin/bash
 
+# Read API key
+API_KEY=$(cat /srv/fabricdocker/fabricdocker-api-key)
+
 docker run -d \
   --name MinecraftServer \
   -e EULA=TRUE \
   -e TYPE=FABRIC \
   -e VERSION=1.21.11 \
+  -e CF_API_KEY="$API_KEY" \
   -e MODS=/data/manifest.json \
   -v `pwd`/manifest.json:/data/manifest.json:ro \
   -v /srv/fabricdocker-data:/data \
