@@ -1,0 +1,29 @@
+docker run -d \
+  --name minecraft \
+  -p 25565:25565 \
+  -e EULA=TRUE \
+  -e VERSION=1.21.11 \
+  -e TYPE=FABRIC \
+  -e CF_API_KEY_FILE=/data/cf_api_key \
+  -e CURSEFORGE_FILES='
+    fabric-api,
+    always-eat,
+    appleskin,
+    cloth-config,
+    clumps,
+    configured,
+    forge-config-api-port,
+    jade,
+    konkrete,
+    lithium,
+    melody,
+    ore-vein-miner,
+    puzzles-lib,
+    resource-backpacks,
+    resource-config-api,
+    resource-library,
+    tree-vein-miner
+  ' \
+  -v $(pwd)/data:/data \
+  -v /srv/fabricdocker-api-key:/data/cf_api_key:ro \
+  itzg/minecraft-server:latest
