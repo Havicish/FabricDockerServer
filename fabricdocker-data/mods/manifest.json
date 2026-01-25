@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "minecraft": {
+    "version": "1.21.11",
+    "modLoaders": [
+      {
+        "id": "fabric",
+        "primary": true
+      }
+    ]
+  },
+  "mods": [
+    {
+      "projectId": "always-eat",
+      "fileName": "always_eat-fabric-1.1.0.jar"
+    },
+    {
+      "projectId": "ambient-environment",
+      "fileName": "AmbientEnvironment-fabric-1.21.11-27.0.0.1.jar"
+    },
+    {
+      "projectId": "appleskin",
+      "fileName": "appleskin-fabric-mc1.21.11-3.0.8.jar"
+    },
+    {
+      "projectId": "better-climbing",
+      "fileName": "better_climbing-fabric-5.jar"
+    },
+    {
+      "projectId": "cloth-config",
+      "fileName": "cloth-config-21.11.153-fabric.jar"
+    },
+    {
+      "projectId": "clumps",
+      "fileName": "Clumps-fabric-1.21.11-29.0.0.1.jar"
+    },
+    {
+      "projectId": "common-networking",
+      "fileName": "common-networking-fabric-1.0.22-1.21.11.jar"
+    },
+    {
+      "projectId": "configured",
+      "fileName": "configured-fabric-1.21.11-2.7.3.jar"
+    },
+    {
+      "projectId": "cursors-extended",
+      "fileName": "cursors_extended-fabric-4.1.4+1.21.11-patch.1.jar"
+    },
+    {
+      "projectId": "custom-player-models",
+      "fileName": "CustomPlayerModels-Fabric-1.21.11-0.6.25c.jar"
+    },
+    {
+      "projectId": "entity-culling",
+      "fileName": "entityculling-fabric-1.9.5-mc1.21.11.jar"
+    },
+    {
+      "projectId": "first-person",
+      "fileName": "firstperson-fabric-2.6.2-mc1.21.11.jar"
+    },
+    {
+      "projectId": "forge-config-api-port",
+      "fileName": "ForgeConfigAPIPort-v21.11.1-mc1.21.11-Fabric.jar"
+    },
+    {
+      "projectId": "immediately-fast",
+      "fileName": "ImmediatelyFast-Fabric-1.14.1+1.21.11.jar"
+    },
+    {
+      "projectId": "iris",
+      "fileName": "iris-fabric-1.10.4+mc1.21.11.jar"
+    },
+    {
+      "projectId": "jade",
+      "fileName": "Jade-1.21.11-Fabric-21.1.1.jar"
+    },
+    {
+      "projectId": "jei",
+      "fileName": "jei-1.21.11-fabric-27.4.0.15.jar"
+    },
+    {
+      "projectId": "konkrete",
+      "fileName": "konkrete_fabric_1.9.14_MC_1.21.11.jar"
+    },
+    {
+      "projectId": "lithium",
+      "fileName": "lithium-fabric-0.21.2+mc1.21.11.jar"
+    },
+    {
+      "projectId": "melody",
+      "fileName": "melody_fabric_1.0.15_MC_1.21.11.jar"
+    },
+    {
+      "projectId": "mouse-tweaks",
+      "fileName": "MouseTweaks-fabric-mc1.21.11-2.30.jar"
+    },
+    {
+      "projectId": "notenoughanimations",
+      "fileName": "notenoughanimations-fabric-1.11.1-mc1.21.11.jar"
+    },
+    {
+      "projectId": "ok-zoomer",
+      "fileName": "ok_zoomer-fabric-16.0.0-beta.2.jar"
+    },
+    {
+      "projectId": "ore-vein-miner",
+      "fileName": "ore-vein-miner-1.0 (1.21.11).jar"
+    },
+    {
+      "projectId": "pickup-notifier",
+      "fileName": "PickUpNotifier-v21.11.0-mc1.21.11-Fabric.jar"
+    },
+    {
+      "projectId": "puzzles-lib",
+      "fileName": "PuzzlesLib-v21.11.6-mc1.21.11-Fabric.jar"
+    },
+    {
+      "projectId": "resource-backpacks",
+      "fileName": "resource_backpacks-fabric-1.21.11-1.4.0.jar"
+    },
+    {
+      "projectId": "resource-config-api",
+      "fileName": "resourceconfigapi-fabric-1.21.11-3.9.2.jar"
+    },
+    {
+      "projectId": "resource-library",
+      "fileName": "resourcelibrary-fabric-1.21.11-2.10.0.jar"
+    },
+    {
+      "projectId": "smooth-gui",
+      "fileName": "smoothgui-fabric-1.21.10-1.1.0.jar"
+    },
+    {
+      "projectId": "smooth-scrolling-refurbished",
+      "fileName": "SmoothScrollingRefurbished+1.21.10-1.5.1.jar"
+    },
+    {
+      "projectId": "smooth-swapping",
+      "fileName": "smoothswapping-0.9.8-1.21.11-fabric.jar"
+    },
+    {
+      "projectId": "sodium",
+      "fileName": "sodium-fabric-0.8.2+mc1.21.11.jar"
+    },
+    {
+      "projectId": "sound-physics-remastered",
+      "fileName": "sound-physics-remastered-fabric-1.21.11-1.5.1.jar"
+    },
+    {
+      "projectId": "tree-vein-miner",
+      "fileName": "tree-vein-miner-1.1 (1.21.11).jar"
+    },
+    {
+      "projectId": "visuality",
+      "fileName": "visuality-0.7.12+1.21.11.jar"
+    },
+    {
+      "projectId": "distant-horizons",
+      "fileName": "DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar"
+    }
+  ]
+}
+
