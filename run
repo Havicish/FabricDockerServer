@@ -44,8 +44,7 @@ docker run -d \
   simple-voice-chat,\
   farmers-delight-refabricated,\
   framework,\
-  macaws-furniture,\
-  carry-on"\
+  macaws-furniture"\
   -v /srv/fabricdocker-data/data:/data \
   -v /srv/fabricdocker-api-key:/data/cf_api_key:ro \
   itzg/minecraft-server:latest
