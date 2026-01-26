@@ -41,6 +41,6 @@ docker run -d \
   visuality,\
   ambient-environment,\
   common-network" \
-  -v $(pwd)/data:/data \
+  -v /srv/fabricdocker-data/data:/data \
   -v /srv/fabricdocker-api-key:/data/cf_api_key:ro \
   itzg/minecraft-server:latest
