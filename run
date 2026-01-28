@@ -37,7 +37,6 @@ docker run -d \
   smooth-swapping,\
   sodium,\
   sound-physics-remastered,\
-  tree-vein-miner,\
   visuality,\
   ambient-environment,\
   common-network,\
@@ -46,7 +45,8 @@ docker run -d \
   framework,\
   macaws-furniture,\
   enchantments-expansion,\
-  invisible-armor-recipe"\
+  invisible-armor-recipe,\
+  tree-harvester"\
   -v /srv/fabricdocker-data/data:/data \
   -v /srv/fabricdocker-api-key:/data/cf_api_key:ro \
   itzg/minecraft-server:latest
